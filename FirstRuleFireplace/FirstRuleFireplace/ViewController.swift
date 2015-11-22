@@ -59,7 +59,6 @@ class ViewController: UIViewController {
         }
         rainPlayer.play()
     }
-    // make three UIviews, each that can play one video, and show them sequentially depending on the state
     
     func startMusicAudio() {
         let godotFilePath = NSBundle.mainBundle().pathForResource("godotSong", ofType: "mp3")
