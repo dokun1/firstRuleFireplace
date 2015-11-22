@@ -6,7 +6,8 @@
 ## About
 I wanted to have an app on the tvOS App store in its first month of existence. This is not necessarily the most useful app you'll ever download, but it is peaceful, relaxing, and (I think) well written.
 
-** image **
+![simulatorImage](https://raw.githubusercontent.com/dokun1/firstRuleFireplace/master/FirstRuleFireplace/FirstRuleFireplace/simulatorShot.png)
+
 A fireplace will appear on screen, along with a simple guide for navigation, and two audio tracks playing in the background.
 
 ### Video Adjustment
