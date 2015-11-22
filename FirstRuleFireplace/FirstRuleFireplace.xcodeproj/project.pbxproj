@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		501089261C01EB81002EF6DA /* VideoFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501089251C01EB81002EF6DA /* VideoFactory.swift */; };
+		501089281C01ED32002EF6DA /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501089271C01ED32002EF6DA /* VideoView.swift */; };
+		506A883A1C0208C100F8DCD7 /* volumeAdjustment.png in Resources */ = {isa = PBXBuildFile; fileRef = 506A88341C0208C100F8DCD7 /* volumeAdjustment.png */; };
+		506A883B1C0208C100F8DCD7 /* fireplaceVideo3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 506A88351C0208C100F8DCD7 /* fireplaceVideo3.mp4 */; };
+		506A883C1C0208C100F8DCD7 /* fireplaceVideo2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 506A88361C0208C100F8DCD7 /* fireplaceVideo2.mp4 */; };
+		506A883D1C0208C100F8DCD7 /* fireplaceVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 506A88371C0208C100F8DCD7 /* fireplaceVideo.mp4 */; };
+		506A883E1C0208C100F8DCD7 /* godotSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 506A88381C0208C100F8DCD7 /* godotSong.mp3 */; };
+		506A883F1C0208C100F8DCD7 /* rainyMood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 506A88391C0208C100F8DCD7 /* rainyMood.mp3 */; };
+		50D35FDC1BE4E7760025EB91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D35FDB1BE4E7760025EB91 /* AppDelegate.swift */; };
+		50D35FDE1BE4E7760025EB91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D35FDD1BE4E7760025EB91 /* ViewController.swift */; };
+		50D35FE11BE4E7760025EB91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D35FDF1BE4E7760025EB91 /* Main.storyboard */; };
+		50D35FE31BE4E7760025EB91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D35FE21BE4E7760025EB91 /* Assets.xcassets */; };
+		50D35FEE1BE4E7760025EB91 /* FirstRuleFireplaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D35FED1BE4E7760025EB91 /* FirstRuleFireplaceTests.swift */; };
+		50D35FF91BE4E7760025EB91 /* FirstRuleFireplaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D35FF81BE4E7760025EB91 /* FirstRuleFireplaceUITests.swift */; };
+		50D360231BEE71E20025EB91 /* VolumeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D360221BEE71E20025EB91 /* VolumeController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50D35FEA1BE4E7760025EB91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D35FD01BE4E7760025EB91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D35FD71BE4E7760025EB91;
+			remoteInfo = FirstRuleFireplace;
+		};
+		50D35FF51BE4E7760025EB91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D35FD01BE4E7760025EB91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D35FD71BE4E7760025EB91;
+			remoteInfo = FirstRuleFireplace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		501089251C01EB81002EF6DA /* VideoFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoFactory.swift; sourceTree = "<group>"; };
+		501089271C01ED32002EF6DA /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		506A88341C0208C100F8DCD7 /* volumeAdjustment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = volumeAdjustment.png; path = AVAssets/volumeAdjustment.png; sourceTree = "<group>"; };
+		506A88351C0208C100F8DCD7 /* fireplaceVideo3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = fireplaceVideo3.mp4; path = AVAssets/fireplaceVideo3.mp4; sourceTree = "<group>"; };
+		506A88361C0208C100F8DCD7 /* fireplaceVideo2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = fireplaceVideo2.mp4; path = AVAssets/fireplaceVideo2.mp4; sourceTree = "<group>"; };
+		506A88371C0208C100F8DCD7 /* fireplaceVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = fireplaceVideo.mp4; path = AVAssets/fireplaceVideo.mp4; sourceTree = "<group>"; };
+		506A88381C0208C100F8DCD7 /* godotSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = godotSong.mp3; path = AVAssets/godotSong.mp3; sourceTree = "<group>"; };
+		506A88391C0208C100F8DCD7 /* rainyMood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rainyMood.mp3; path = AVAssets/rainyMood.mp3; sourceTree = "<group>"; };
+		50D35FD81BE4E7760025EB91 /* FirstRuleFireplace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstRuleFireplace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D35FDB1BE4E7760025EB91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50D35FDD1BE4E7760025EB91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50D35FE01BE4E7760025EB91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50D35FE21BE4E7760025EB91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50D35FE41BE4E7760025EB91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D35FE91BE4E7760025EB91 /* FirstRuleFireplaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstRuleFireplaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D35FED1BE4E7760025EB91 /* FirstRuleFireplaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRuleFireplaceTests.swift; sourceTree = "<group>"; };
+		50D35FEF1BE4E7760025EB91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D35FF41BE4E7760025EB91 /* FirstRuleFireplaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstRuleFireplaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D35FF81BE4E7760025EB91 /* FirstRuleFireplaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRuleFireplaceUITests.swift; sourceTree = "<group>"; };
+		50D35FFA1BE4E7760025EB91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D360221BEE71E20025EB91 /* VolumeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50D35FD51BE4E7760025EB91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D35FE61BE4E7760025EB91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D35FF11BE4E7760025EB91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50D35FCF1BE4E7760025EB91 = {
+			isa = PBXGroup;
+			children = (
+				50D35FDA1BE4E7760025EB91 /* FirstRuleFireplace */,
+				50D35FEC1BE4E7760025EB91 /* FirstRuleFireplaceTests */,
+				50D35FF71BE4E7760025EB91 /* FirstRuleFireplaceUITests */,
+				50D35FD91BE4E7760025EB91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50D35FD91BE4E7760025EB91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50D35FD81BE4E7760025EB91 /* FirstRuleFireplace.app */,
+				50D35FE91BE4E7760025EB91 /* FirstRuleFireplaceTests.xctest */,
+				50D35FF41BE4E7760025EB91 /* FirstRuleFireplaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50D35FDA1BE4E7760025EB91 /* FirstRuleFireplace */ = {
+			isa = PBXGroup;
+			children = (
+				50D35FDB1BE4E7760025EB91 /* AppDelegate.swift */,
+				50D35FDD1BE4E7760025EB91 /* ViewController.swift */,
+				50D360221BEE71E20025EB91 /* VolumeController.swift */,
+				501089251C01EB81002EF6DA /* VideoFactory.swift */,
+				501089271C01ED32002EF6DA /* VideoView.swift */,
+				50D360061BE4E8E00025EB91 /* AV Assets */,
+				50D35FDF1BE4E7760025EB91 /* Main.storyboard */,
+				50D35FE21BE4E7760025EB91 /* Assets.xcassets */,
+				50D35FE41BE4E7760025EB91 /* Info.plist */,
+			);
+			path = FirstRuleFireplace;
+			sourceTree = "<group>";
+		};
+		50D35FEC1BE4E7760025EB91 /* FirstRuleFireplaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				50D35FED1BE4E7760025EB91 /* FirstRuleFireplaceTests.swift */,
+				50D35FEF1BE4E7760025EB91 /* Info.plist */,
+			);
+			path = FirstRuleFireplaceTests;
+			sourceTree = "<group>";
+		};
+		50D35FF71BE4E7760025EB91 /* FirstRuleFireplaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50D35FF81BE4E7760025EB91 /* FirstRuleFireplaceUITests.swift */,
+				50D35FFA1BE4E7760025EB91 /* Info.plist */,
+			);
+			path = FirstRuleFireplaceUITests;
+			sourceTree = "<group>";
+		};
+		50D360061BE4E8E00025EB91 /* AV Assets */ = {
+			isa = PBXGroup;
+			children = (
+				506A88341C0208C100F8DCD7 /* volumeAdjustment.png */,
+				506A88351C0208C100F8DCD7 /* fireplaceVideo3.mp4 */,
+				506A88361C0208C100F8DCD7 /* fireplaceVideo2.mp4 */,
+				506A88371C0208C100F8DCD7 /* fireplaceVideo.mp4 */,
+				506A88381C0208C100F8DCD7 /* godotSong.mp3 */,
+				506A88391C0208C100F8DCD7 /* rainyMood.mp3 */,
+			);
+			name = "AV Assets";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50D35FD71BE4E7760025EB91 /* FirstRuleFireplace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D35FFD1BE4E7760025EB91 /* Build configuration list for PBXNativeTarget "FirstRuleFireplace" */;
+			buildPhases = (
+				50D35FD41BE4E7760025EB91 /* Sources */,
+				50D35FD51BE4E7760025EB91 /* Frameworks */,
+				50D35FD61BE4E7760025EB91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstRuleFireplace;
+			productName = FirstRuleFireplace;
+			productReference = 50D35FD81BE4E7760025EB91 /* FirstRuleFireplace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50D35FE81BE4E7760025EB91 /* FirstRuleFireplaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D360001BE4E7760025EB91 /* Build configuration list for PBXNativeTarget "FirstRuleFireplaceTests" */;
+			buildPhases = (
+				50D35FE51BE4E7760025EB91 /* Sources */,
+				50D35FE61BE4E7760025EB91 /* Frameworks */,
+				50D35FE71BE4E7760025EB91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50D35FEB1BE4E7760025EB91 /* PBXTargetDependency */,
+			);
+			name = FirstRuleFireplaceTests;
+			productName = FirstRuleFireplaceTests;
+			productReference = 50D35FE91BE4E7760025EB91 /* FirstRuleFireplaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50D35FF31BE4E7760025EB91 /* FirstRuleFireplaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D360031BE4E7760025EB91 /* Build configuration list for PBXNativeTarget "FirstRuleFireplaceUITests" */;
+			buildPhases = (
+				50D35FF01BE4E7760025EB91 /* Sources */,
+				50D35FF11BE4E7760025EB91 /* Frameworks */,
+				50D35FF21BE4E7760025EB91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50D35FF61BE4E7760025EB91 /* PBXTargetDependency */,
+			);
+			name = FirstRuleFireplaceUITests;
+			productName = FirstRuleFireplaceUITests;
+			productReference = 50D35FF41BE4E7760025EB91 /* FirstRuleFireplaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50D35FD01BE4E7760025EB91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "David Okun, LLC";
+				TargetAttributes = {
+					50D35FD71BE4E7760025EB91 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = RQ632LL2X3;
+					};
+					50D35FE81BE4E7760025EB91 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 50D35FD71BE4E7760025EB91;
+					};
+					50D35FF31BE4E7760025EB91 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 50D35FD71BE4E7760025EB91;
+					};
+				};
+			};
+			buildConfigurationList = 50D35FD31BE4E7760025EB91 /* Build configuration list for PBXProject "FirstRuleFireplace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50D35FCF1BE4E7760025EB91;
+			productRefGroup = 50D35FD91BE4E7760025EB91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50D35FD71BE4E7760025EB91 /* FirstRuleFireplace */,
+				50D35FE81BE4E7760025EB91 /* FirstRuleFireplaceTests */,
+				50D35FF31BE4E7760025EB91 /* FirstRuleFireplaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50D35FD61BE4E7760025EB91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506A883E1C0208C100F8DCD7 /* godotSong.mp3 in Resources */,
+				506A883C1C0208C100F8DCD7 /* fireplaceVideo2.mp4 in Resources */,
+				50D35FE31BE4E7760025EB91 /* Assets.xcassets in Resources */,
+				506A883A1C0208C100F8DCD7 /* volumeAdjustment.png in Resources */,
+				506A883D1C0208C100F8DCD7 /* fireplaceVideo.mp4 in Resources */,
+				506A883F1C0208C100F8DCD7 /* rainyMood.mp3 in Resources */,
+				50D35FE11BE4E7760025EB91 /* Main.storyboard in Resources */,
+				506A883B1C0208C100F8DCD7 /* fireplaceVideo3.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D35FE71BE4E7760025EB91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D35FF21BE4E7760025EB91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50D35FD41BE4E7760025EB91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501089261C01EB81002EF6DA /* VideoFactory.swift in Sources */,
+				501089281C01ED32002EF6DA /* VideoView.swift in Sources */,
+				50D35FDE1BE4E7760025EB91 /* ViewController.swift in Sources */,
+				50D360231BEE71E20025EB91 /* VolumeController.swift in Sources */,
+				50D35FDC1BE4E7760025EB91 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D35FE51BE4E7760025EB91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D35FEE1BE4E7760025EB91 /* FirstRuleFireplaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D35FF01BE4E7760025EB91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D35FF91BE4E7760025EB91 /* FirstRuleFireplaceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50D35FEB1BE4E7760025EB91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50D35FD71BE4E7760025EB91 /* FirstRuleFireplace */;
+			targetProxy = 50D35FEA1BE4E7760025EB91 /* PBXContainerItemProxy */;
+		};
+		50D35FF61BE4E7760025EB91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50D35FD71BE4E7760025EB91 /* FirstRuleFireplace */;
+			targetProxy = 50D35FF51BE4E7760025EB91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50D35FDF1BE4E7760025EB91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50D35FE01BE4E7760025EB91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50D35FFB1BE4E7760025EB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		50D35FFC1BE4E7760025EB91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50D35FFE1BE4E7760025EB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: David Okun (RQ632LL2X3)";
+				INFOPLIST_FILE = FirstRuleFireplace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.okun.firstRuleFireplace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0db83295-f8de-4621-b2f4-28f4bcecfccb";
+			};
+			name = Debug;
+		};
+		50D35FFF1BE4E7760025EB91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: David Okun (RQ632LL2X3)";
+				INFOPLIST_FILE = FirstRuleFireplace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.okun.firstRuleFireplace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0db83295-f8de-4621-b2f4-28f4bcecfccb";
+			};
+			name = Release;
+		};
+		50D360011BE4E7760025EB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FirstRuleFireplaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.okun.FirstRuleFireplaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstRuleFireplace.app/FirstRuleFireplace";
+			};
+			name = Debug;
+		};
+		50D360021BE4E7760025EB91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FirstRuleFireplaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.okun.FirstRuleFireplaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstRuleFireplace.app/FirstRuleFireplace";
+			};
+			name = Release;
+		};
+		50D360041BE4E7760025EB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FirstRuleFireplaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.okun.FirstRuleFireplaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FirstRuleFireplace;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		50D360051BE4E7760025EB91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FirstRuleFireplaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.okun.FirstRuleFireplaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FirstRuleFireplace;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50D35FD31BE4E7760025EB91 /* Build configuration list for PBXProject "FirstRuleFireplace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D35FFB1BE4E7760025EB91 /* Debug */,
+				50D35FFC1BE4E7760025EB91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D35FFD1BE4E7760025EB91 /* Build configuration list for PBXNativeTarget "FirstRuleFireplace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D35FFE1BE4E7760025EB91 /* Debug */,
+				50D35FFF1BE4E7760025EB91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D360001BE4E7760025EB91 /* Build configuration list for PBXNativeTarget "FirstRuleFireplaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D360011BE4E7760025EB91 /* Debug */,
+				50D360021BE4E7760025EB91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D360031BE4E7760025EB91 /* Build configuration list for PBXNativeTarget "FirstRuleFireplaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D360041BE4E7760025EB91 /* Debug */,
+				50D360051BE4E7760025EB91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50D35FD01BE4E7760025EB91 /* Project object */;
+}
