@@ -21,12 +21,12 @@ A fireplace will appear on screen, along with a simple guide for navigation, and
 There is a first **and** second rule disallowing me from telling you where I got this idea as a whole, but I hope you enjoy it nonetheless. And if you know where it's from, I made this for you.
 
 ## Attributions
-### Videos found:
+### Videos found
 * [Fireplace 1](https://www.youtube.com/watch?v=lGNXVhMLw8o)
 * [Fireplace 2](https://www.youtube.com/watch?v=Nzbnj8f3z7U)
 * [Fireplace 3](https://www.youtube.com/watch?v=ifGkCN93Fxg)
 
-### Music found:
+### Music found
 * [Rainfall Sound](http://rainymood.com)
 * [The Fragrance of Dark Coffee](https://www.youtube.com/watch?v=HMnrl0tmd3k)
 
