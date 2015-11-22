@@ -4,7 +4,7 @@
 [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/dokun1/firstRuleFireplace/blob/master/LICENSE)
 
 ## About
-I wanted to have an app on the tvOS App store in its first month of existence. This is not necessarily the most useful app you'll ever download, but it is peaceful, relaxing, and (I think) well written.
+I wanted to have an app on the tvOS App store in its first month of existence. This is not necessarily the most useful app you'll ever download, but it is peaceful, relaxing, and (I think) decently written.
 
 ![simulatorImage](https://raw.githubusercontent.com/dokun1/firstRuleFireplace/master/FirstRuleFireplace/FirstRuleFireplace/simulatorShot.png)
 
